@@ -362,7 +362,7 @@
 
                         <div data-v-397da544="" class="flex1"></div>
                         <a href="{{ route('user.recharge') }}">
-                        <p style="color:#fff">Details</p>
+                        <p style="color:#fff">@lang('Details')</p>
                         </a>
                         <div data-v-397da544="" class="head_right">
                         
@@ -382,7 +382,7 @@
             <div data-v-cfc9a7fc="" id="scroll" class="content-container">
                 <div data-v-cfc9a7fc="" id="content" class="content-scroll">
                     <div data-v-167ffb9b="" data-v-cfc9a7fc="" class="container">
-                    <div data-v-9aac4ed6="" class="ft-l"><div data-v-9aac4ed6="" class="title" style="color:#fff">AI computing power</div><div data-v-9aac4ed6="" class="til">Simple, Secure, High Yield</div></div>
+                    <div data-v-9aac4ed6="" class="ft-l"><div data-v-9aac4ed6="" class="title" style="color:#fff">@lang('AI computing power')</div><div data-v-9aac4ed6="" class="til">@lang('Simple, Secure, High Yield')</div></div>
                     <img data-v-9aac4ed6="" class="ftw-r-img" src="{{asset('')}}assets/static/image/node_image.png" alt="">
                     <!-- <div data-v-167ffb9b="" data-v-cfc9a7fc="" class="totalBox" style="border-radius: 4%;border-color: black;">
                             <div data-v-167ffb9b="" data-v-cfc9a7fc="" class="name flex">
@@ -431,12 +431,12 @@
                             data-v-cfc9a7fc="" class="btn4 open-model">
                                 @lang('Earning Records') </button></div> --}}
                                 <div class="show_data" style="margin-bottom:10px">
-                                <div  class="tab"style="color: #f2e1e1; margin-left:20px"> <div>Assets </div><br>
+                                <div  class="tab"style="color: #f2e1e1; margin-left:20px"> <div>@lang('Assets') </div><br>
                                     <span class="investment-amount"> {{number_format(Auth::user()->available_balance(),2)}} USDT</span>
                                 </div>
                         <!-- <div   class="tab" style="color: grey;"> <div>Total Revenue</div> <br>
                         <span class="investment-amount">{{currency()}} {{number_format($totalRoi,2)}}</span> </div> -->
-                        <div   class="tab" style="color: #f2e1e1;"> <div>Today's Yield</div> <br>
+                        <div   class="tab" style="color: #f2e1e1;"> <div>@lang("Today's Yield")</div> <br>
                         <span class="investment-amount">{{currency()}} {{number_format($todaysIncome,2)}}</span> </div>
                         </div>
 
@@ -470,10 +470,10 @@
                                     </div>
                                     <div data-v-167ffb9b="" data-v-cfc9a7fc="" class="s"
                                         style="">  <span data-v-167ffb9b=""
-                                            data-v-cfc9a7fc="" class="title" style="color:#fff">Become a member</span></div>
+                                            data-v-cfc9a7fc="" class="title" style="color:#fff">@lang('Become a member')</span></div>
                                             <div data-v-167ffb9b="" data-v-cfc9a7fc="" 
                                         style="">  <span data-v-167ffb9b=""
-                                            data-v-cfc9a7fc="" class="t" >Only members subscribed to the ServerCore plan or higher can run the Node Power package.</span></div>        
+                                            data-v-cfc9a7fc="" class="t" >@lang('Only members subscribed to the ServerCore plan or higher can run the Node Power package.')</span></div>        
                                 </li>
                                
                             </ul>
@@ -483,10 +483,10 @@
                                     </div>
                                     <div data-v-167ffb9b="" data-v-cfc9a7fc="" class="s"
                                         style="">  <span data-v-167ffb9b=""
-                                            data-v-cfc9a7fc="" class="title" style="color:#fff">Run Node power Subscription</span></div>
+                                            data-v-cfc9a7fc="" class="title" style="color:#fff">@lang('Run Node power Subscription')</span></div>
                                             <div data-v-167ffb9b="" data-v-cfc9a7fc="" 
                                         style="">  <span data-v-167ffb9b=""
-                                            data-v-cfc9a7fc="" class="t" >The system will run the Node power Subscription according to the maximum runnable amount of the current user level</span></div>        
+                                            data-v-cfc9a7fc="" class="t" >@lang('The system will run the Node power Subscription according to the maximum runnable amount of the current user level')</span></div>        
                                 </li>
                                
                             </ul>
@@ -496,10 +496,10 @@
                                     </div>
                                     <div data-v-167ffb9b="" data-v-cfc9a7fc="" class="s"
                                         style="">  <span data-v-167ffb9b=""
-                                            data-v-cfc9a7fc="" class="title" style="color:#fff">distribute income</span></div>
+                                            data-v-cfc9a7fc="" class="title" style="color:#fff">@lang('distribute income')</span></div>
                                             <div data-v-167ffb9b="" data-v-cfc9a7fc="" 
                                         style="">  <span data-v-167ffb9b=""
-                                            data-v-cfc9a7fc="" class="t" >Daily Yield will be returned in one go after the operation is completed</span></div>        
+                                            data-v-cfc9a7fc="" class="t" >@lang('Daily Yield will be returned in one go after the operation is completed')</span></div>        
                                 </li>
                                
                             </ul>
@@ -887,7 +887,7 @@
    ">
                                 
                             </div>
-                            <p class="no-data">No Data</p>
+                            <p class="no-data">@lang('No Data')</p>
                             @endif
 
                             <ul data-v-167ffb9b="" data-v-cfc9a7fc="" class="list" style="display: none;"></ul>
@@ -907,26 +907,26 @@
                                     <div data-v-167ffb9b="" class="mini" style="font-size:15px; font-weight:bold">$30</div>
                                     <div data-v-167ffb9b="" class="rate">
                                         <div data-v-167ffb9b="" class="s" style="padding-bottom: 5px;">
-                                            <span style="color: #170529d9; font-size:12px" data-v-167ffb9b="">$1</span> Daily Yield
+                                            <span style="color: #170529d9; font-size:12px" data-v-167ffb9b="">$1</span>  @lang('Daily Yield')
                                         </div>
                                         <div data-v-167ffb9b="" class="n flex" style="padding-top: 5px;justify-content: space-between">
-                                            <div><span style="font-size: 11px;">1 time</span></div>
-                                            <div style="font-size: 11px;">1 hour</div>
+                                            <div><span style="font-size: 11px;">1 @lang('time')</span></div>
+                                            <div style="font-size: 11px;">1 @lang('hour')</div>
                                         </div>
                                     </div>
                                     @if($vip >= 0)
                                     <div data-v-167ffb9b="" class="lv">
-                                        <img data-v-167ffb9b="" src="{{ asset('') }}assets/static/img/unlock.png"> Unlock
+                                        <img data-v-167ffb9b="" src="{{ asset('') }}assets/static/img/unlock.png"> @lang('Unlock') 
                                     </div>
                                     @else
                                     <div data-v-167ffb9b="" class="lv">
-                                        <img data-v-167ffb9b="" src="{{ asset('') }}assets/static/img/lock.png"> Lock
+                                        <img data-v-167ffb9b="" src="{{ asset('') }}assets/static/img/lock.png"> @lang('Lock')
                                     </div>
                                     @endif
                                     <img data-v-167ffb9b="" src="{{ asset('') }}assets/static/img/vip1.png" style="padding: 8px; bottom: 43px;" class="img">
                                     <div class="flex" style="opacity: 0.7;justify-content: space-between">
-                                        <div>Daily Run Times</div>
-                                        <div>Running time</div>
+                                    <div>  @lang('Daily Run Times')</div>
+                                    <div> @lang('Running time')</div>
                                     </div>
                                 </li>                                
                                 <li class="serverCoreItem" data-id="2" data-v-167ffb9b="" style="background: linear-gradient(92deg, #55B2C2 1.36%, #fff 103.37%);color:#000;">
@@ -934,28 +934,28 @@
                                     <div data-v-167ffb9b="" class="mini" style="font-size:15px; font-weight:bold">$120</div>
                                     <div data-v-167ffb9b="" class="rate">
                                         <div data-v-167ffb9b="" class="s" style="padding-bottom:5px"><span style="color: #170529d9; font-size:12px" data-v-167ffb9b="">$4</span>
-                                            Daily Yield
+                                        @lang('Daily Yield')
                                         </div>
-                                        <div data-v-167ffb9b="" class="n flex" style="padding-top:5px;justify-content: space-between"> <div><span  style="font-size:11px;">1 time</span>
+                                        <div data-v-167ffb9b="" class="n flex" style="padding-top:5px;justify-content: space-between"> <div><span  style="font-size:11px;">1 @lang('time')</span>
                                            </div>
                                          
-                                            <div style="font-size:11px">1 hour</div>
+                                            <div style="font-size:11px">1 @lang('hour')</div>
 
                                         </div>
                                     </div>
                                     @if($vip>=0)
                                     <div data-v-167ffb9b="" class="lv"><img data-v-167ffb9b="" 
-                                        src="{{ asset('') }}assets/static/img/unlock.png"> Unlock
+                                        src="{{ asset('') }}assets/static/img/unlock.png"> @lang('Unlock') 
                                     </div>
                                     @else
                                     <div data-v-167ffb9b="" class="lv"><img data-v-167ffb9b="" 
-                                        src="{{ asset('') }}assets/static/img/lock.png"> Lock
+                                        src="{{ asset('') }}assets/static/img/lock.png"> @lang('Lock')
                                     </div>
                                     @endif
                                     <img data-v-167ffb9b="" src="{{ asset('')}}assets/static/img/vip2.png" style="padding:8px;bottom:43"class="img">
                                         <div class="flex" style="opacity:0.7;justify-content: space-between">
-                                        <div >  Daily Run Times</div>
-                                        <div> Running time</div>
+                                        <div>  @lang('Daily Run Times')</div>
+                                        <div> @lang('Running time')</div>
                                         </div>
 
                                 </li>
@@ -964,28 +964,28 @@
                                     <div data-v-167ffb9b="" class="mini"style="font-size:15px; font-weight:bold">$300</div>
                                     <div data-v-167ffb9b="" class="rate">
                                         <div data-v-167ffb9b="" class="s" style="padding-bottom:5px"><span style="color: #170529d9; font-size:12px" data-v-167ffb9b="">$10</span>
-                                            Daily Yield
+                                        @lang('Daily Yield')
                                         </div>
-                                        <div data-v-167ffb9b="" class="n flex" style="padding-top:5px;justify-content: space-between"> <div><span  style="font-size:11px">1 time</span>
+                                        <div data-v-167ffb9b="" class="n flex" style="padding-top:5px;justify-content: space-between"> <div><span  style="font-size:11px">1 @lang('time')</span>
                                            </div>
                                          
-                                            <div style="font-size:11px">1 hour</div>
+                                            <div style="font-size:11px">1 @lang('hour')</div>
 
                                         </div>
                                     </div>
                                     @if($vip>=3)
                                     <div data-v-167ffb9b="" class="lv"><img data-v-167ffb9b="" 
-                                        src="{{ asset('') }}assets/static/img/unlock.png"> Unlock
+                                        src="{{ asset('') }}assets/static/img/unlock.png"> @lang('Unlock') 
                                     </div>
                                     @else
                                     <div data-v-167ffb9b="" class="lv"><img data-v-167ffb9b="" 
-                                        src="{{ asset('') }}assets/static/img/lock.png"> Lock
+                                        src="{{ asset('') }}assets/static/img/lock.png"> @lang('Lock')
                                     </div>
                                     @endif
                                     <img data-v-167ffb9b="" src="{{ asset('')}}assets/static/img/vip3.png" style="padding:8px;bottom:43"class="img">
                                         <div class="flex" style="opacity:0.7;justify-content: space-between">
-                                        <div>  Daily Run Times</div>
-                                        <div> Running time</div>
+                                        <div>  @lang('Daily Run Times')</div>
+                                        <div> @lang('Running time')</div>
                                         </div>
 
                                 </li>
@@ -994,28 +994,28 @@
                                     <div data-v-167ffb9b="" class="mini"style="font-size:15px; font-weight:bold">$1200</div>
                                     <div data-v-167ffb9b="" class="rate">
                                         <div data-v-167ffb9b="" class="s" style="padding-bottom:5px"><span style="color: #170529d9; font-size:12px" data-v-167ffb9b="">$40</span>
-                                            Daily Yield
+                                        @lang('Daily Yield')
                                         </div>
-                                        <div data-v-167ffb9b="" class="n flex" style="padding-top:5px;justify-content: space-between"> <div><span  style="font-size:11px;">1 time</span>
+                                        <div data-v-167ffb9b="" class="n flex" style="padding-top:5px;justify-content: space-between"> <div><span  style="font-size:11px;">1 @lang('time')</span>
                                            </div>
                                          
-                                            <div style="font-size:11px">1 hour</div>
+                                            <div style="font-size:11px">1 @lang('hour')</div>
 
                                         </div>
                                     </div>
                                     @if($vip>=4)
                                     <div data-v-167ffb9b="" class="lv"><img data-v-167ffb9b="" 
-                                        src="{{ asset('') }}assets/static/img/unlock.png"> Unlock
+                                        src="{{ asset('') }}assets/static/img/unlock.png"> @lang('Unlock') 
                                     </div>
                                     @else
                                     <div data-v-167ffb9b="" class="lv"><img data-v-167ffb9b="" 
-                                        src="{{ asset('') }}assets/static/img/lock.png"> Lock
+                                        src="{{ asset('') }}assets/static/img/lock.png"> @lang('Lock')
                                     </div>
                                     @endif
                                     <img data-v-167ffb9b="" src="{{ asset('')}}assets/static/img/vip4.png" style="padding:8px;bottom:43"class="img">
                                         <div class="flex" style="opacity:0.7;justify-content: space-between">
-                                        <div>  Daily Run Times</div>
-                                        <div> Running time</div>
+                                        <div>  @lang('Daily Run Times')</div>
+                                        <div> @lang('Running time')</div>
                                         </div>
 
                                 </li>
@@ -1024,28 +1024,28 @@
                                     <div data-v-167ffb9b="" class="mini"style="font-size:15px; font-weight:bold">$3600</div>
                                     <div data-v-167ffb9b="" class="rate">
                                         <div data-v-167ffb9b="" class="s" style="padding-bottom:5px"><span style="color: #170529d9; font-size:12px" data-v-167ffb9b="">$120</span>
-                                            Daily Yield
+                                            @lang('Daily Yield')
                                         </div>
-                                        <div data-v-167ffb9b="" class="n flex" style="padding-top:5px;justify-content: space-between"> <div><span  style="font-size:11px;">1 time</span>
+                                        <div data-v-167ffb9b="" class="n flex" style="padding-top:5px;justify-content: space-between"> <div><span  style="font-size:11px;">1 @lang('time')</span>
                                            </div>
                                          
-                                            <div style="font-size:11px">1 hour</div>
+                                            <div style="font-size:11px">1 @lang('hour')</div>
 
                                         </div>
                                     </div> 
                                     @if($vip>=5)
                                     <div data-v-167ffb9b="" class="lv"><img data-v-167ffb9b="" 
-                                        src="{{ asset('') }}assets/static/img/unlock.png"> Unlock
+                                        src="{{ asset('') }}assets/static/img/unlock.png">@lang('Unlock') 
                                     </div>
                                     @else
                                     <div data-v-167ffb9b="" class="lv"><img data-v-167ffb9b="" 
-                                        src="{{ asset('') }}assets/static/img/lock.png"> Lock
+                                        src="{{ asset('') }}assets/static/img/lock.png"> @lang('Lock') 
                                     </div>
                                     @endif
                                     <img data-v-167ffb9b="" src="{{ asset('')}}assets/static/img/vip5.png" style="padding:8px;bottom:43"class="img">
                                         <div class="flex" style="opacity:0.7;justify-content: space-between">
-                                        <div>  Daily Run Times</div>
-                                        <div> Running time</div>
+                                        <div>  @lang('Daily Run Times')</div>
+                                        <div> @lang('Running time')</div>
                                         </div>
 
                                 </li>
@@ -1054,28 +1054,28 @@
                                     <div data-v-167ffb9b="" class="mini"style="font-size:15px; font-weight:bold">$6000</div>
                                     <div data-v-167ffb9b="" class="rate">
                                         <div data-v-167ffb9b="" class="s" style="padding-bottom:5px"><span style="color: #170529d9; font-size:12px" data-v-167ffb9b="">$200</span>
-                                            Daily Yield
+                                        @lang('Daily Yield')
                                         </div>
-                                        <div data-v-167ffb9b="" class="n flex" style="padding-top:5px;justify-content: space-between"> <div><span  style="font-size:11px">1 time</span>
+                                        <div data-v-167ffb9b="" class="n flex" style="padding-top:5px;justify-content: space-between"> <div><span  style="font-size:11px">1 @lang('time')</span>
                                            </div>
                                          
-                                            <div style="font-size:11px">1 hour</div>
+                                            <div style="font-size:11px">1 @lang('hour')</div>
 
                                         </div>
                                     </div>
                                     @if($vip>=6)
                                     <div data-v-167ffb9b="" class="lv"><img data-v-167ffb9b="" 
-                                        src="{{ asset('') }}assets/static/img/unlock.png"> Unlock
+                                        src="{{ asset('') }}assets/static/img/unlock.png">@lang('Unlock') 
                                     </div>
                                     @else
                                     <div data-v-167ffb9b="" class="lv"><img data-v-167ffb9b="" 
-                                        src="{{ asset('') }}assets/static/img/lock.png"> Lock
+                                        src="{{ asset('') }}assets/static/img/lock.png">@lang('Lock')
                                     </div>
                                     @endif
                                     <img data-v-167ffb9b="" src="{{ asset('')}}assets/static/img/vip6.png" style="padding:8px;bottom:43"class="img">
                                         <div class="flex" style="opacity:0.7;justify-content: space-between">
-                                        <div>  Daily Run Times</div>
-                                        <div> Running time</div>
+                                        <div> @lang('Daily Run Times') </div>
+                                        <div> @lang('Running time')</div>
                                         </div>
 
                                 </li>
@@ -1084,28 +1084,28 @@
                                     <div data-v-167ffb9b="" class="mini"style="font-size:15px; font-weight:bold">$15000</div>
                                     <div data-v-167ffb9b="" class="rate">
                                         <div data-v-167ffb9b="" class="s" style="padding-bottom:5px"><span style="color: #170529d9; font-size:12px" data-v-167ffb9b="">$500</span>
-                                            Daily Yield
+                                        @lang('Daily Yield')
                                         </div>
-                                        <div data-v-167ffb9b="" class="n flex" style="padding-top:5px;justify-content: space-between"> <div><span  style="font-size:11px">1 time</span>
+                                        <div data-v-167ffb9b="" class="n flex" style="padding-top:5px;justify-content: space-between"> <div><span  style="font-size:11px">1 @lang('time')</span>
                                            </div>
                                          
-                                            <div style="font-size:11px">1 hour</div>
+                                            <div style="font-size:11px">1 @lang('hour')</div>
 
                                         </div>
                                     </div>
                                     @if($vip>=7)
                                     <div data-v-167ffb9b="" class="lv"><img data-v-167ffb9b="" 
-                                        src="{{ asset('') }}assets/static/img/unlock.png"> Unlock
+                                        src="{{ asset('') }}assets/static/img/unlock.png">@lang('Unlock') 
                                     </div>
                                     @else
                                     <div data-v-167ffb9b="" class="lv"><img data-v-167ffb9b="" 
-                                        src="{{ asset('') }}assets/static/img/lock.png"> Lock
+                                        src="{{ asset('') }}assets/static/img/lock.png"> @lang('Lock')
                                     </div>
                                     @endif
                                     <img data-v-167ffb9b="" src="{{ asset('')}}assets/static/img/vip7.png" style="padding:8px;bottom:43"class="img">
                                         <div class="flex" style="opacity:0.7;justify-content: space-between">
-                                        <div>  Daily Run Times</div>
-                                        <div> Running time</div>
+                                        <div>  @lang('Daily Run Times')</div>
+                                        <div> @lang('Running time')</div>
                                         </div>
 
                                 </li>

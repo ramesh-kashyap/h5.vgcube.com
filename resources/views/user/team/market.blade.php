@@ -355,7 +355,7 @@
                         <!-- <div data-v-397da544="" class="left_title">@lang('Subscribe') </div> -->
 
                         <div data-v-397da544="" class="flex1"></div>
-                        <p style="color:#fff">Details</p>
+                        <p style="color:#fff">@lang('Details')</p>
                         <div data-v-397da544="" class="head_right">
                         
                             <a href="{{ route('user.recharge') }}">
@@ -625,7 +625,7 @@
                                     </div> --}}
                                     <ul data-v-1fa86597="" data-v-cfc9a7fc="" class="com-1">
                                         <li data-v-1fa86597="" data-v-cfc9a7fc="">
-                                            <div data-v-1fa86597="" data-v-cfc9a7fc="" class="n">Running Node Power Amount</div>
+                                            <div data-v-1fa86597="" data-v-cfc9a7fc="" class="n">@lang('Running Node Power Amount')</div>
                                             <div data-v-1fa86597="" data-v-cfc9a7fc="" class="s"> 
                                                 
                                             ${{ $investment->amount }}
@@ -633,7 +633,7 @@
                                             </div>
                                         </li>
                                         <li data-v-1fa86597="" data-v-cfc9a7fc="">
-                                            <div data-v-1fa86597="" data-v-cfc9a7fc="" class="n">Estimated Node Power Reward</div>
+                                            <div data-v-1fa86597="" data-v-cfc9a7fc="" class="n">@lang('Estimated Node Power Reward')</div>
                                             <div data-v-1fa86597="" data-v-cfc9a7fc="" class="s"> 
                                                
                                                ${{ $investment->plan }}
@@ -659,9 +659,9 @@
                                             </div>
                                         </li> -->
                                         <li data-v-1fa86597="" data-v-cfc9a7fc="">
-                                            <div data-v-1fa86597="" data-v-cfc9a7fc="" class="n">Today's executable limit</div>
+                                            <div data-v-1fa86597="" data-v-cfc9a7fc="" class="n">@lang("Today's executable limit")</div>
                                             <div data-v-1fa86597="" data-v-cfc9a7fc="" class="s"> 
-                                                1 hour
+                                                1 @lang('hour')
         
                                             </div>
                                         </li>
@@ -731,7 +731,7 @@
                                 <img src="{{ asset('') }}assets/static/img/nodata.png" style="max-width: 70%;">
                                 
                             </div>
-                            <p class="no-data">No Data</p>
+                            <p class="no-data">@lang('No Data')</p>
                           @endif
 
                             <ul data-v-167ffb9b="" data-v-cfc9a7fc="" class="list" style="display: none;"></ul>
