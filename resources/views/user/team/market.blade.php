@@ -666,13 +666,13 @@
                                             </div>
                                         </li>
                                         <li data-v-1fa86597="" data-v-cfc9a7fc="">
-                                            <div data-v-1fa86597="" data-v-cfc9a7fc="" class="n">Running Time</div>
+                                            <div data-v-1fa86597="" data-v-cfc9a7fc="" class="n">@lang('Running Time')</div>
                                             <div data-v-1fa86597="" data-v-cfc9a7fc="" class="s"> 
                                                 1 
                                             </div>
                                         </li>
                                     </ul>
-                                    <p style="font-weight:300; font-size:10px;color:gray">The Node power Subscription  needs to be clicked and run for 1 hour every day to obtain rewards. If you do not click on it, there will be no reward on the day. After the operation is completed, the proceeds will be distributed to the  Assets balance.
+                                    <p style="font-weight:300; font-size:10px;color:gray">@lang('The Node power Subscription  needs to be clicked and run for 1 hour every day to obtain rewards. If you do not click on it, there will be no reward on the day. After the operation is completed, the proceeds will be distributed to the  Assets balance.')
                                     </p>
                                     @if($button == 1)
                                     <!-- Button to start the task -->
@@ -695,7 +695,7 @@
                                         </div>
                                         
                                         <div class="times">
-                                            <p id="timer-1h-{{$investment->id}}" class="timer">You will be rewarded in: 1:00:00</p>
+                                            <p id="timer-1h-{{$investment->id}}" class="timer">@lang('You will be rewarded in: 1:00:00')</p>
                                         </div>
                                     </div>
                                     @else
@@ -711,7 +711,7 @@
                                         </div>
                                         
                                         <div class="times">
-                                            <p id="timer-24h-{{$investment->id}}" class="timer">Next task will be unlocked in: 24:00:00</p>
+                                            <p id="timer-24h-{{$investment->id}}" class="timer">@lang('Next task will be unlocked in: 24:00:00')</p>
                                         </div>
                                     </div>
                                     @endif

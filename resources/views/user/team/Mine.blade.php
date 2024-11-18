@@ -328,10 +328,10 @@
                                 <div class="invite-card">
                                     <div class="text">
                                         <h2>
-                                            Invite Friends
+                                           @lang('Invite Friends') 
                                         </h2>
                                         <p>
-                                            Explore the wonderful world of artificial intelligence
+                                            @lang('Explore the wonderful world of artificial intelligence')
                                         </p>
                                     </div>
                                      <div class="icons">

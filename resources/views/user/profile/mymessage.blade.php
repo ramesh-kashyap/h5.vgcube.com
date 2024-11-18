@@ -136,7 +136,7 @@
                         <div data-v-397da544="" class="back"><a href="{{route('user.account')}}" style="color:#fff;"><i data-v-397da544="" class="van-icon van-icon-arrow-left">
                                 </i></a></div>
                         
-                        <div data-v-397da544="" class="name tac"> My messages </div>
+                        <div data-v-397da544="" class="name tac"> @lang('My messages') </div>
                         <div data-v-397da544="" class="flex1"></div>
 
                         
@@ -158,35 +158,26 @@
                                
                                 <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="right">
                                     <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="title_box">
-                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="title"> Introducing VG CUBE!
+                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="title"> @lang('Introducing VG CUBE!')
                                         </div>
                                        
                                     </div>
                                         <br>
                                     <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="title_box">
-                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="a">The future of AI is here, and it’s packed with rewards! VG CUBE is the groundbreaking decentralized AI platform that lets you earn daily by participating in simple AI tasks.
+                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="a">@lang('The future of AI is here, and it’s packed with rewards! VG CUBE is the groundbreaking decentralized AI platform that lets you earn daily by participating in simple AI tasks.')
                                         </div>
                                        
                                     </div>
 
                                     <br>
                                     <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="title_box">
-                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="a"> Earn Daily
+                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="a">@lang('Earn Daily') 
                                         </div>
                                        
                                     </div>
                                     <br>
                                     <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="title_box">
-                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="a"> Leverage AI Power
-
-                                        </div>
-                                       
-                                    </div>
-
-                                    <br>
-                                    <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="title_box">
-                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="a">Enjoy Top-Level Security
-
+                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="a"> @lang('Leverage AI Power')
 
                                         </div>
                                        
@@ -194,7 +185,7 @@
 
                                     <br>
                                     <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="title_box">
-                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="a">Why wait? Be part of the AI revolution, where cutting-edge tech meets consistent income. Dive in now and transform the way you engage with AI!
+                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="a">@lang('Enjoy Top-Level Security')
 
 
                                         </div>
@@ -203,7 +194,16 @@
 
                                     <br>
                                     <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="title_box">
-                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="title">Join VG CUBE Today! 🚀
+                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="a">@lang('Why wait? Be part of the AI revolution, where cutting-edge tech meets consistent income. Dive in now and transform the way you engage with AI!')
+
+
+                                        </div>
+                                       
+                                    </div>
+
+                                    <br>
+                                    <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="title_box">
+                                        <div data-v-aefda5d2="" data-v-cfc9a7fc="" class="title">@lang('Join VG CUBE Today!') 🚀
 
 
 

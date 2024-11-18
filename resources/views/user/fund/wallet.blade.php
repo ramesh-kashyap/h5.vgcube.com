@@ -262,7 +262,7 @@
                                                                     ($value['comm'] == 15000 ? "Subscription Hub" : ""))))))
                                                                 }}
                                                             @elseif($value['remarks'] == "Deposits")
-                                                                Deposit    <a target="_blank" href="{{route('user.viewdetail',['txnId'=>$value['txn_no']])}}" style="margin-left:10px;color: #ffffff;    text-transform: lowercase;"> <i class="fa fa-share-alt" aria-hidden="true"></i> </a>
+                                                                @lang('Deposit')    <a target="_blank" href="{{route('user.viewdetail',['txnId'=>$value['txn_no']])}}" style="margin-left:10px;color: #ffffff;    text-transform: lowercase;"> <i class="fa fa-share-alt" aria-hidden="true"></i> </a>
                                                             @else
                                                                 {{ $value['remarks'] }}
                                                             @endif
